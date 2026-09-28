@@ -1,0 +1,952 @@
+{
+    "greetings": {
+        "conditions": [
+            "hello",
+            "hi",
+            "hey",
+            "hai",
+            "hello there",
+            "hey there",
+            "good morning",
+            "good afternoon",
+            "good evening",
+            "good night",
+            "morning",
+            "afternoon",
+            "evening"
+        ],
+        "response": "Hello! 👋 How can I help you?"
+    },
+
+    "how_are_you": {
+        "conditions": [
+            "how are you",
+            "how are you doing",
+            "how have you been",
+            "are you okay",
+            "are you fine",
+            "how is your day",
+            "how are things"
+        ],
+        "response": "I'm doing well! 😊 Thanks for asking. How can I help you?"
+    },
+
+    "name": {
+        "conditions": [
+            "what is your name",
+            "what's your name",
+            "your name",
+            "tell me your name",
+            "may i know your name"
+        ],
+        "response": "My name is RuleBot. 🤖"
+    },
+
+    "identity": {
+        "conditions": [
+            "who are you",
+            "what are you",
+            "introduce yourself",
+            "tell me about yourself",
+            "what kind of bot are you",
+            "are you a robot",
+            "are you a chatbot"
+        ],
+        "response": "I am RuleBot, a simple rule-based chatbot created using Python conditions and predefined responses."
+    },
+
+    "capabilities": {
+        "conditions": [
+            "what can you do",
+            "what do you do",
+            "how can you help",
+            "what can you help with",
+            "your capabilities",
+            "what are your capabilities",
+            "what are you capable of",
+            "what do you know"
+        ],
+        "response": "I can answer predefined questions, provide basic information, discuss programming topics, and respond to common conversations using rules."
+    },
+
+    "thanks": {
+        "conditions": [
+            "thank you",
+            "thanks",
+            "thank",
+            "thank u",
+            "thanks a lot",
+            "many thanks",
+            "i appreciate it",
+            "appreciate your help"
+        ],
+        "response": "You're welcome! 😊"
+    },
+
+    "goodbye": {
+        "conditions": [
+            "bye",
+            "goodbye",
+            "good bye",
+            "see you",
+            "see you later",
+            "talk to you later",
+            "catch you later",
+            "i have to go",
+            "exit",
+            "quit"
+        ],
+        "response": "Goodbye! 👋 Have a great day!"
+    },
+
+    "welcome": {
+        "conditions": [
+            "you are welcome",
+            "no problem",
+            "no worries",
+            "my pleasure"
+        ],
+        "response": "Thank you! 😊"
+    },
+
+    "help": {
+        "conditions": [
+            "help",
+            "help me",
+            "i need help",
+            "can you help me",
+            "please help"
+        ],
+        "response": "Of course! Tell me what you need help with."
+    },
+
+    "python": {
+        "conditions": [
+            "what is python",
+            "what is python language",
+            "tell me about python",
+            "python programming",
+            "python language",
+            "python"
+        ],
+        "response": "Python is a high-level programming language known for its simple syntax and wide range of applications."
+    },
+
+    "python_advantages": {
+        "conditions": [
+            "advantages of python",
+            "benefits of python",
+            "why use python",
+            "why python",
+            "why is python popular"
+        ],
+        "response": "Python is popular because it is easy to learn, readable, versatile, and has a large collection of libraries."
+    },
+
+    "python_variables": {
+        "conditions": [
+            "python variable",
+            "python variables",
+            "what is a variable in python",
+            "variables in python"
+        ],
+        "response": "A variable in Python is a name used to store a value. For example: name = 'John'."
+    },
+
+    "python_loop": {
+        "conditions": [
+            "python loop",
+            "python loops",
+            "for loop in python",
+            "while loop in python",
+            "loops in python"
+        ],
+        "response": "Python supports for loops and while loops for repeating a block of code."
+    },
+
+    "python_function": {
+        "conditions": [
+            "python function",
+            "python functions",
+            "what is a function in python",
+            "functions in python"
+        ],
+        "response": "A Python function is a reusable block of code defined using the def keyword."
+    },
+
+    "python_list": {
+        "conditions": [
+            "python list",
+            "python lists",
+            "what is a list in python",
+            "lists in python"
+        ],
+        "response": "A Python list is an ordered and mutable collection that can store multiple values."
+    },
+
+    "python_tuple": {
+        "conditions": [
+            "python tuple",
+            "python tuples",
+            "what is a tuple",
+            "tuples in python"
+        ],
+        "response": "A tuple is an ordered collection in Python that cannot normally be changed after creation."
+    },
+
+    "python_dictionary": {
+        "conditions": [
+            "python dictionary",
+            "python dictionaries",
+            "what is a dictionary in python",
+            "dictionaries in python"
+        ],
+        "response": "A Python dictionary stores data as key-value pairs."
+    },
+
+    "python_class": {
+        "conditions": [
+            "python class",
+            "python classes",
+            "what is a class in python",
+            "classes in python"
+        ],
+        "response": "A Python class is a blueprint for creating objects and is a fundamental concept in object-oriented programming."
+    },
+
+    "artificial_intelligence": {
+        "conditions": [
+            "artificial intelligence",
+            "what is artificial intelligence",
+            "what is ai",
+            "tell me about ai",
+            "define artificial intelligence",
+            "meaning of ai"
+        ],
+        "response": "Artificial Intelligence, or AI, is the field of creating systems that can perform tasks that normally require human intelligence."
+    },
+
+    "ai_examples": {
+        "conditions": [
+            "examples of ai",
+            "ai examples",
+            "applications of ai",
+            "where is ai used",
+            "uses of artificial intelligence"
+        ],
+        "response": "AI is used in areas such as virtual assistants, recommendation systems, robotics, computer vision, natural language processing, and expert systems."
+    },
+
+    "machine_learning": {
+        "conditions": [
+            "machine learning",
+            "what is machine learning",
+            "define machine learning",
+            "tell me about machine learning",
+            "meaning of machine learning"
+        ],
+        "response": "Machine Learning is a branch of AI in which computer systems learn patterns from data."
+    },
+
+    "deep_learning": {
+        "conditions": [
+            "deep learning",
+            "what is deep learning",
+            "define deep learning",
+            "tell me about deep learning"
+        ],
+        "response": "Deep Learning is a branch of machine learning that uses multi-layer neural networks."
+    },
+
+    "nlp": {
+        "conditions": [
+            "natural language processing",
+            "what is nlp",
+            "what is natural language processing",
+            "define nlp"
+        ],
+        "response": "Natural Language Processing, or NLP, deals with enabling computers to process and understand human language."
+    },
+
+    "computer_vision": {
+        "conditions": [
+            "computer vision",
+            "what is computer vision",
+            "define computer vision",
+            "computer vision meaning"
+        ],
+        "response": "Computer Vision is an AI field that enables computers to process and interpret visual information from images and videos."
+    },
+
+    "expert_system": {
+        "conditions": [
+            "expert system",
+            "expert systems",
+            "what is an expert system",
+            "rule based system"
+        ],
+        "response": "An expert system is an AI system that uses a knowledge base and rules to solve problems or provide decisions."
+    },
+
+    "rule_based_ai": {
+        "conditions": [
+            "rule based ai",
+            "rule based artificial intelligence",
+            "rule based chatbot",
+            "how does rule based ai work"
+        ],
+        "response": "Rule-based AI uses predefined rules, conditions, and responses instead of learning from training data."
+    },
+
+    "database": {
+        "conditions": [
+            "database",
+            "what is a database",
+            "what are databases",
+            "define database",
+            "database meaning"
+        ],
+        "response": "A database is an organized collection of data that can be stored, accessed, and managed efficiently."
+    },
+
+    "sql": {
+        "conditions": [
+            "sql",
+            "what is sql",
+            "what is structured query language",
+            "define sql",
+            "sql meaning"
+        ],
+        "response": "SQL stands for Structured Query Language and is used to communicate with relational databases."
+    },
+
+    "dbms": {
+        "conditions": [
+            "dbms",
+            "what is dbms",
+            "database management system",
+            "what is database management system"
+        ],
+        "response": "DBMS stands for Database Management System. It is software used to create, store, organize, and manage databases."
+    },
+
+    "primary_key": {
+        "conditions": [
+            "primary key",
+            "what is primary key",
+            "define primary key"
+        ],
+        "response": "A primary key is a column or set of columns that uniquely identifies each record in a database table."
+    },
+
+    "foreign_key": {
+        "conditions": [
+            "foreign key",
+            "what is foreign key",
+            "define foreign key"
+        ],
+        "response": "A foreign key is a field that links one database table to another table."
+    },
+
+    "html": {
+        "conditions": [
+            "html",
+            "what is html",
+            "what is hypertext markup language",
+            "define html"
+        ],
+        "response": "HTML stands for HyperText Markup Language and is used to structure content on web pages."
+    },
+
+    "css": {
+        "conditions": [
+            "css",
+            "what is css",
+            "what is cascading style sheets",
+            "define css"
+        ],
+        "response": "CSS stands for Cascading Style Sheets and is used to control the appearance and layout of web pages."
+    },
+
+    "javascript": {
+        "conditions": [
+            "javascript",
+            "what is javascript",
+            "define javascript",
+            "javascript language"
+        ],
+        "response": "JavaScript is a programming language commonly used to add interactive behavior to web pages."
+    },
+
+    "website": {
+        "conditions": [
+            "what is a website",
+            "website",
+            "web site",
+            "define website"
+        ],
+        "response": "A website is a collection of related web pages that can be accessed through the internet."
+    },
+
+    "internet": {
+        "conditions": [
+            "what is internet",
+            "internet",
+            "define internet",
+            "how does internet work"
+        ],
+        "response": "The Internet is a global network that connects computers and devices so they can communicate and exchange information."
+    },
+
+    "algorithm": {
+        "conditions": [
+            "algorithm",
+            "what is an algorithm",
+            "define algorithm",
+            "algorithm meaning"
+        ],
+        "response": "An algorithm is a step-by-step procedure used to solve a problem or perform a task."
+    },
+
+    "data_structure": {
+        "conditions": [
+            "data structure",
+            "what is data structure",
+            "define data structure",
+            "data structures"
+        ],
+        "response": "A data structure is a way of organizing and storing data so it can be accessed and modified efficiently."
+    },
+
+    "array": {
+        "conditions": [
+            "array",
+            "what is an array",
+            "arrays in programming"
+        ],
+        "response": "An array is a data structure used to store multiple values, usually under a single variable name."
+    },
+
+    "stack": {
+        "conditions": [
+            "stack",
+            "what is stack",
+            "stack data structure"
+        ],
+        "response": "A stack is a linear data structure that follows the Last In, First Out principle."
+    },
+
+    "queue": {
+        "conditions": [
+            "queue",
+            "what is queue",
+            "queue data structure"
+        ],
+        "response": "A queue is a linear data structure that generally follows the First In, First Out principle."
+    },
+
+    "linked_list": {
+        "conditions": [
+            "linked list",
+            "linked lists",
+            "what is linked list"
+        ],
+        "response": "A linked list is a data structure consisting of nodes where each node contains data and a link to another node."
+    },
+
+    "tree": {
+        "conditions": [
+            "tree data structure",
+            "what is tree",
+            "binary tree",
+            "tree in data structure"
+        ],
+        "response": "A tree is a hierarchical data structure consisting of nodes connected by edges."
+    },
+
+    "graph": {
+        "conditions": [
+            "graph data structure",
+            "what is graph",
+            "graphs in data structure"
+        ],
+        "response": "A graph is a data structure consisting of vertices and edges used to represent relationships."
+    },
+
+    "operating_system": {
+        "conditions": [
+            "operating system",
+            "what is operating system",
+            "define operating system",
+            "os meaning"
+        ],
+        "response": "An operating system is system software that manages computer hardware, software resources, and provides services to applications."
+    },
+
+    "windows": {
+        "conditions": [
+            "windows",
+            "microsoft windows",
+            "what is windows"
+        ],
+        "response": "Windows is a family of operating systems developed by Microsoft."
+    },
+
+    "linux": {
+        "conditions": [
+            "linux",
+            "what is linux",
+            "linux operating system"
+        ],
+        "response": "Linux is an open-source family of Unix-like operating systems."
+    },
+
+    "computer": {
+        "conditions": [
+            "what is a computer",
+            "computer",
+            "define computer",
+            "how does a computer work"
+        ],
+        "response": "A computer is an electronic device that processes data according to instructions."
+    },
+
+    "cpu": {
+        "conditions": [
+            "cpu",
+            "what is cpu",
+            "central processing unit",
+            "processor"
+        ],
+        "response": "CPU stands for Central Processing Unit. It executes instructions and performs calculations in a computer."
+    },
+
+    "ram": {
+        "conditions": [
+            "ram",
+            "what is ram",
+            "random access memory"
+        ],
+        "response": "RAM stands for Random Access Memory. It temporarily stores data and instructions that the computer is actively using."
+    },
+
+    "rom": {
+        "conditions": [
+            "rom",
+            "what is rom",
+            "read only memory"
+        ],
+        "response": "ROM stands for Read-Only Memory and stores data that generally remains available even when the device is powered off."
+    },
+
+    "internet_browser": {
+        "conditions": [
+            "browser",
+            "web browser",
+            "what is a browser",
+            "internet browser"
+        ],
+        "response": "A web browser is software used to access and display websites on the Internet."
+    },
+
+    "education": {
+        "conditions": [
+            "education",
+            "what is education",
+            "importance of education",
+            "why education is important"
+        ],
+        "response": "Education helps people develop knowledge, skills, understanding, and the ability to solve problems."
+    },
+
+    "study": {
+        "conditions": [
+            "how to study",
+            "study tips",
+            "study better",
+            "how can i study",
+            "how to prepare for exam"
+        ],
+        "response": "Try setting a study schedule, breaking topics into smaller sections, practicing questions, and reviewing regularly."
+    },
+
+    "exam": {
+        "conditions": [
+            "exam",
+            "exams",
+            "examination",
+            "prepare for exam",
+            "exam preparation"
+        ],
+        "response": "For exams, understand the concepts first, practice previous questions, revise important topics, and manage your time."
+    },
+
+    "motivation": {
+        "conditions": [
+            "motivate me",
+            "i need motivation",
+            "give me motivation",
+            "motivation",
+            "feeling demotivated"
+        ],
+        "response": "Progress does not have to be perfect. Start with one small task and keep moving forward. 💪"
+    },
+
+    "success": {
+        "conditions": [
+            "what is success",
+            "how to be successful",
+            "success",
+            "successful"
+        ],
+        "response": "Success can involve setting meaningful goals, developing useful skills, staying consistent, and learning from experience."
+    },
+
+    "time": {
+        "conditions": [
+            "what time is it",
+            "current time",
+            "tell me the time",
+            "time now"
+        ],
+        "response": "You can check your device clock for the current local time."
+    },
+
+    "weather": {
+        "conditions": [
+            "weather",
+            "what is the weather",
+            "how is the weather"
+        ],
+        "response": "I cannot access live weather information in this simple rule-based version, but you can check a weather service for current conditions."
+    },
+
+    "joke": {
+        "conditions": [
+            "tell me a joke",
+            "make me laugh",
+            "joke",
+            "funny joke"
+        ],
+        "response": "Why do programmers prefer dark mode? Because light attracts bugs! 😄"
+    },
+
+    "happy": {
+        "conditions": [
+            "i am happy",
+            "i feel happy",
+            "feeling happy",
+            "i am excited"
+        ],
+        "response": "That's great to hear! 😊 Enjoy the moment."
+    },
+
+    "sad": {
+        "conditions": [
+            "i am sad",
+            "i feel sad",
+            "feeling sad",
+            "i am upset"
+        ],
+        "response": "I'm sorry you're feeling that way. Take some time for yourself and consider talking with someone you trust."
+    },
+
+    "confused": {
+        "conditions": [
+            "i am confused",
+            "i feel confused",
+            "i don't understand",
+            "i am stuck"
+        ],
+        "response": "That's okay. Try breaking the problem into smaller parts and work through them one step at a time."
+    },
+
+    "programming": {
+        "conditions": [
+            "programming",
+            "what is programming",
+            "learn programming",
+            "programming language"
+        ],
+        "response": "Programming is the process of writing instructions that computers can execute to perform tasks."
+    },
+
+    "software": {
+        "conditions": [
+            "what is software",
+            "software",
+            "define software"
+        ],
+        "response": "Software is a collection of programs and instructions that tell a computer what to do."
+    },
+
+    "hardware": {
+        "conditions": [
+            "what is hardware",
+            "hardware",
+            "define hardware"
+        ],
+        "response": "Hardware refers to the physical components of a computer or electronic device."
+    },
+
+    "technology": {
+        "conditions": [
+            "what is technology",
+            "technology",
+            "define technology"
+        ],
+        "response": "Technology refers to tools, systems, techniques, and processes developed to solve problems or perform useful tasks."
+    },
+
+    "robot": {
+        "conditions": [
+            "what is a robot",
+            "robot",
+            "robots",
+            "define robot"
+        ],
+        "response": "A robot is a programmable machine capable of performing tasks automatically or semi-automatically."
+    },
+
+    "chatbot": {
+        "conditions": [
+            "what is a chatbot",
+            "chatbot",
+            "chat bots",
+            "define chatbot"
+        ],
+        "response": "A chatbot is a software application designed to communicate with users through text or voice."
+    },
+
+    "api": {
+        "conditions": [
+            "what is api",
+            "api",
+            "application programming interface",
+            "define api"
+        ],
+        "response": "API stands for Application Programming Interface. It allows different software systems to communicate with each other."
+    },
+
+    "json": {
+        "conditions": [
+            "what is json",
+            "json",
+            "define json"
+        ],
+        "response": "JSON stands for JavaScript Object Notation. It is a lightweight format commonly used to store and exchange structured data."
+    },
+
+    "flask": {
+        "conditions": [
+            "what is flask",
+            "flask",
+            "python flask"
+        ],
+        "response": "Flask is a lightweight Python web framework used to build web applications and APIs."
+    },
+
+    "github": {
+        "conditions": [
+            "what is github",
+            "github",
+            "git hub"
+        ],
+        "response": "GitHub is a platform for hosting and collaborating on software projects using Git."
+    },
+
+    "git": {
+        "conditions": [
+            "what is git",
+            "git",
+            "version control"
+        ],
+        "response": "Git is a distributed version control system used to track changes in files and collaborate on software projects."
+    },
+
+    "project": {
+        "conditions": [
+            "project idea",
+            "project",
+            "software project",
+            "college project"
+        ],
+        "response": "A good project should solve a clear problem and demonstrate the concepts you are learning."
+    },
+
+    "career": {
+        "conditions": [
+            "career",
+            "career advice",
+            "choose a career",
+            "career path"
+        ],
+        "response": "Explore areas that match your interests, develop practical skills, build projects, and gain experience."
+    },
+
+    "interview": {
+        "conditions": [
+            "interview",
+            "job interview",
+            "interview preparation",
+            "prepare for interview"
+        ],
+        "response": "For interviews, understand your projects, revise fundamentals, practice common questions, and communicate clearly."
+    },
+
+    "resume": {
+        "conditions": [
+            "resume",
+            "cv",
+            "curriculum vitae",
+            "resume tips"
+        ],
+        "response": "A good resume should clearly present your education, technical skills, projects, experience, and relevant achievements."
+    },
+
+    "college": {
+        "conditions": [
+            "college",
+            "university",
+            "student life",
+            "college life"
+        ],
+        "response": "College is a good opportunity to build technical knowledge, communication skills, projects, and professional connections."
+    },
+
+    "friend": {
+        "conditions": [
+            "you are my friend",
+            "can we be friends",
+            "are you my friend",
+            "friend"
+        ],
+        "response": "Of course! 😊 I'm always here to have a conversation and help with questions."
+    },
+
+    "favorite": {
+        "conditions": [
+            "what is your favorite",
+            "your favorite color",
+            "your favorite food",
+            "your favorite movie"
+        ],
+        "response": "I don't have personal preferences, but I can discuss different choices with you."
+    },
+
+    "age": {
+        "conditions": [
+            "how old are you",
+            "your age",
+            "what is your age"
+        ],
+        "response": "I don't have a human age. I'm a software program."
+    },
+
+    "location": {
+        "conditions": [
+            "where are you",
+            "where do you live",
+            "your location"
+        ],
+        "response": "I exist as software and don't have a physical location."
+    },
+
+    "human": {
+        "conditions": [
+            "are you human",
+            "are you a human",
+            "human or robot"
+        ],
+        "response": "I'm not human. I'm a computer program designed to respond using predefined rules."
+    },
+
+    "ai_vs_ml": {
+        "conditions": [
+            "difference between ai and ml",
+            "ai and machine learning",
+            "difference between artificial intelligence and machine learning"
+        ],
+        "response": "AI is the broader field of creating intelligent systems, while Machine Learning is one approach used to build AI systems."
+    },
+
+    "ai_vs_dl": {
+        "conditions": [
+            "difference between ai and deep learning",
+            "ai and deep learning",
+            "difference between artificial intelligence and deep learning"
+        ],
+        "response": "AI is the broader field, while Deep Learning is a machine learning approach based on neural networks with multiple layers."
+    },
+
+    "data_science": {
+        "conditions": [
+            "data science",
+            "what is data science",
+            "define data science"
+        ],
+        "response": "Data Science combines statistics, programming, data analysis, and domain knowledge to extract useful information from data."
+    },
+
+    "data": {
+        "conditions": [
+            "what is data",
+            "data meaning",
+            "define data"
+        ],
+        "response": "Data is a collection of facts, observations, measurements, or information that can be processed and analyzed."
+    },
+
+    "information": {
+        "conditions": [
+            "what is information",
+            "define information"
+        ],
+        "response": "Information is processed or organized data that provides meaning and can support understanding or decisions."
+    },
+
+    "security": {
+        "conditions": [
+            "cyber security",
+            "cybersecurity",
+            "computer security",
+            "what is cybersecurity"
+        ],
+        "response": "Cybersecurity involves protecting computers, networks, applications, and data from unauthorized access and attacks."
+    },
+
+    "password": {
+        "conditions": [
+            "strong password",
+            "password security",
+            "how to create a strong password",
+            "password"
+        ],
+        "response": "Use a long, unique password or passphrase and avoid reusing passwords across important accounts."
+    },
+
+    "internet_safety": {
+        "conditions": [
+            "internet safety",
+            "online safety",
+            "stay safe online",
+            "internet security"
+        ],
+        "response": "Use strong passwords, enable multi-factor authentication, avoid suspicious links, and keep software updated."
+    },
+
+    "thanks_again": {
+        "conditions": [
+            "great",
+            "awesome",
+            "perfect",
+            "nice",
+            "good answer"
+        ],
+        "response": "Glad you found it useful! 😊"
+    },
+
+    "fallback": {
+        "response": "Sorry, I don't understand that yet. Try asking me about AI, Python, programming, databases, technology, education, or general conversation."
+    }
+}
